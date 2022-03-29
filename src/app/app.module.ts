@@ -8,6 +8,7 @@ import {RegistroModule} from './registro/registro.module';
 import {UsuariosModule} from './usuarios/usuarios.module';
 
 import {RegistroService} from './services/registro.service';
+import {UsuariosService} from "./services/usuarios.service";
 @NgModule({
   declarations: [
     AppComponent
@@ -22,7 +23,8 @@ import {RegistroService} from './services/registro.service';
     UsuariosModule
   ],
   providers: [
-    RegistroService
+    RegistroService,
+    UsuariosService
   ],
   bootstrap: [AppComponent]
 })

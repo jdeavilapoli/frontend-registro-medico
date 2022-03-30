@@ -1,11 +1,8 @@
-import {Rol} from "./Rol";
-
 export interface Usuarios {
-  id: number;
   nombres: string;
   apellidos: string;
   telefono: number;
-  fechaNacimiento: Date;
+  fechaNacimiento: string;
   correo: string;
   usuario: string;
   direccion: string;
@@ -13,5 +10,4 @@ export interface Usuarios {
   barrio: string;
   genero: string;
   condiciones: boolean;
-  rol: Rol
 }
